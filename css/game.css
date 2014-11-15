@@ -1,0 +1,180 @@
+@font-face
+{
+     font-family: Roboto;
+     src:url(../Fonts/Roboto-Bold.ttf);
+}
+
+
+body
+{
+    background: -moz-linear-gradient(top, #A3FEBA) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A3FEBA), color-stop(100%,rgba(0,0,0,1)));
+    background: -webkit-linear-gradient(top, #A3FEBA 0%,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(top, #A3FEBA 0%,rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(top, #A3FEBA 0%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(top, #A3FEBA 0%,rgba(0,0,0,0) 100%);
+           
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+
+#statusHeader
+{
+    height: 50px;
+    background-color: #BDBDBD;
+    line-height: 50px;
+    font-family: Roboto;
+    
+}
+
+/* #mainMenuHeader > span
+{
+        float: right;
+} */
+
+#logoutButton
+{
+	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Roboto;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+    position:fixed;
+    top:0;
+    right:0;
+    height: 35px;
+    line-height: 35px;
+}
+#logoutButton:hover 
+{
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+#logoutButton:active 
+{
+	top:1px;
+}
+
+#giveButton{display:block;width:100px;height:100px;
+border-radius:50px;font-size:20px;color:#fff;
+line-height:100px;text-shadow:0 1px 0 #666;
+text-align:center;text-decoration:none;box-shadow:1px 1px 2px #000;
+background:#00C853;opacity:0.95;
+
+position: absolute;
+top: 45%;
+left: 0%;
+}
+
+#giveButton:hover{color:#eee;text-shadow:0 0 1px #666;
+text-decoration:none;box-shadow:0 0 4px #222 inset;opacity:1}
+
+#takeButton{display:block;width:100px;height:100px;
+border-radius:50px;font-size:20px;color:#fff;
+line-height:100px;text-shadow:0 1px 0 #666;
+text-align:center;text-decoration:none;box-shadow:1px 1px 2px #000;
+background:#BF360C;opacity:0.95;
+
+position: absolute;
+top: 45%;
+right: 0%;
+}
+
+#takeButton:hover{color:#eee;text-shadow:0 0 1px #666;
+text-decoration:none;box-shadow:0 0 4px #222 inset;opacity:1}
+
+#mainSection
+{
+      position: fixed;
+      margin-left:auto;
+      margin-right:auto;
+      width: 500px;
+      z-index: -1;
+      
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+
+#player1
+{
+        position: fixed;
+        width:  500px;
+        height:  100px;
+        top: 200px;
+        background-color: rgba(255,193,7,0.8);
+        
+        -webkit-box-shadow: 1px 1px 1px 3px rgba(0,0,0,0.34);
+        -moz-box-shadow: 1px 1px 1px 3px rgba(0,0,0,0.34);
+        box-shadow: 1px 1px 1px 3px rgba(0,0,0,0.34);
+        font-family: Roboto;
+                 font-size: 24pt;
+                          text-align:center;
+}
+
+#player2
+{
+        position: fixed;
+        width:  500px;
+        height:  100px;
+        bottom: 200px;
+       background-color: rgba(255,193,7,0.8);
+        
+        -webkit-box-shadow: 1px 1px 1px 3px rgba(0,0,0,0.34);
+        -moz-box-shadow: 1px 1px 1px 3px rgba(0,0,0,0.34);
+        box-shadow: 1px 1px 1px 3px rgba(0,0,0,0.34);
+        font-family: Roboto;
+                 font-size: 24pt;
+                          text-align:center;
+}
+
+#prizePool
+{
+          position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+
+        width:  200px;
+        height:  100px;
+        background-color: rgba(255,193,7,0.8);
+        
+        -webkit-box-shadow: 1px 1px 1px 3px rgba(0,0,0,0.34);
+        -moz-box-shadow: 1px 1px 1px 3px rgba(0,0,0,0.34);
+        box-shadow: 1px 1px 1px 3px rgba(0,0,0,0.34);
+         font-family: Roboto;
+         
+         text-align:center;
+         line-height: 100px;
+         font-size: 24pt;
+}
